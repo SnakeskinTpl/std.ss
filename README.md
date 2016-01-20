@@ -11,7 +11,7 @@ npm install std.ss
 
 ## Examples
 
-```
+```js
 - include 'node_module/std.ss/index'
 - template myTemplate()
   - doctype
