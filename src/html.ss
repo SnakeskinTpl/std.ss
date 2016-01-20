@@ -8,7 +8,13 @@
  * https://github.com/SnakeskinTpl/std.ss/blob/master/LICENSE
  */
 
-- template cdn(name, provider)
+/**
+ * Add the specified library from CDN
+ *
+ * @param {string} name - library name with version (name@version), for example, jQuery@2
+ * @param {string} [opt_provider] - name of the resource provider
+ */
+- template cdn(name, opt_provider)
 	- if !name
 		- throw new Error('missing a name of the requested library')
 
@@ -154,4 +160,4 @@
 
 			- return val
 
-	{libraries[lib][provider] || libraries[lib][firstKey(libraries[lib])]}
+	{libraries[lib][opt_provider] || libraries[lib][firstKey(libraries[lib])]}
