@@ -14,7 +14,7 @@
  * @param {string} name - library name with version (name@version), for example, jQuery@2
  * @param {string} [opt_provider] - name of the resource provider
  */
-- template cdn(name, opt_provider)
+- template cdn(name, opt_provider) @= tolerateWhitespaces false
 	- if !name
 		- throw new Error('missing a name of the requested library')
 
@@ -22,17 +22,17 @@
 	- lib = desc[0]
 	- v = desc[1]
 
-	- if !version
+	- if !v
 		- throw new Error('missing a version of the requested library')
 
 	- target {} as libraries
 		* angularjs
 			- target {}
 				* google
-					- script (src = http://ajax.googleapis.com/ajax/libs/angularjs/${version}/angular.min.js)
+					- script (src = http://ajax.googleapis.com/ajax/libs/angularjs/${v}/angular.min.js)
 
 				* yandex
-					- script (src = http://yastatic.net/angularjs/${version}/angular.min.js)
+					- script (src = http://yastatic.net/angularjs/${v}/angular.min.js)
 
 		* bootstrap
 			- target {}
