@@ -12,7 +12,9 @@ npm install std.ss
 ## Examples
 
 ```js
+- namespace myApp
 - include 'node_module/std.ss/index'
+
 - template myTemplate()
   - doctype
   < html
