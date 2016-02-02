@@ -13,7 +13,7 @@ npm install std.ss
 
 ```js
 - namespace myApp
-- include 'node_module/std.ss/html'
+- include 'node_modules/std.ss/html'
 
 - template myTemplate()
   - doctype
