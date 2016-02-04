@@ -16,14 +16,14 @@
  */
 - template cdn(name, opt_provider) @= tolerateWhitespaces false
 	- if !name
-		- throw new Error('missing a name of the requested library')
+		- throw new Error('Missing a name of the requested library')
 
 	: desc = name.split('@')
-	- lib = desc[0]
+	- lib = desc[0]|lower
 	- v = desc[1]
 
 	- if !v
-		- throw new Error('missing a version of the requested library')
+		- throw new Error('Missing a version of the requested library')
 
 	- target {} as libraries
 		* angularjs
@@ -148,7 +148,7 @@
 	- block libraries() =>
 
 	- if !libraries[lib]
-		- throw new Error('the requested library "${name}" is not found'|tpl {name: lib})
+		- throw new Error('The requested library "${name}" is not found'|tpl {name: lib})
 
 	: putIn firstKey
 		() => obj
