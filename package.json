@@ -1,9 +1,9 @@
 {
   "name": "std.ss",
-  "description": "Standart library for Snakeskin.",
+  "description": "Standard library for Snakeskin.",
   "homepage": "https://github.com/SnakeskinTpl/std.ss",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": {
     "name": "kobezzza",
