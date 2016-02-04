@@ -1,0 +1,27 @@
+{
+  "name": "std.ss",
+  "description": "Standart library for Snakeskin.",
+  "homepage": "https://github.com/SnakeskinTpl/std.ss",
+  "main": "index.js",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "kobezzza",
+    "email": "kobezzza@mail.ru",
+    "url": "https://github.com/kobezzza"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnakeskinTpl/std.ss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SnakeskinTpl/std.ss/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [
+    "snakeskin",
+    "templateengine"
+  ]
+}
