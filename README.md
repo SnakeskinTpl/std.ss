@@ -3,6 +3,9 @@ std.ss
 
 Standard library for [Snakeskin](https://github.com/SnakeskinTpl/Snakeskin).
 
+[![NPM version](http://img.shields.io/npm/v/std.ss.svg?style=flat)](http://badge.fury.io/js/std.ss)
+[![NPM download](https://img.shields.io/npm/dm/std.ss.svg?style=flat)](http://badge.fury.io/js/std.ss)
+
 ## Install
 
 ```bash
