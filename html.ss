@@ -29,121 +29,121 @@
 		* angularjs
 			- target {}
 				* google
-					- script js src = http://ajax.googleapis.com/ajax/libs/angularjs/${v}/angular.min.js
+					- script js src = //ajax.googleapis.com/ajax/libs/angularjs/${v}/angular.min.js
 
 				* yandex
-					- script js src = http://yastatic.net/angularjs/${v}/angular.min.js
+					- script js src = //yastatic.net/angularjs/${v}/angular.min.js
 
 		* bootstrap
 			- target {}
 				* maxcdn
-					- link css href = http://maxcdn.bootstrapcdn.com/bootstrap/${v}/css/bootstrap.min.css
-					- script js src = http://maxcdn.bootstrapcdn.com/bootstrap/${v}/js/bootstrap.min.js
+					- link css href = //maxcdn.bootstrapcdn.com/bootstrap/${v}/css/bootstrap.min.css
+					- script js src = //maxcdn.bootstrapcdn.com/bootstrap/${v}/js/bootstrap.min.js
 
 				* yandex
-					- link css href = http://yastatic.net/bootstrap/${v}/css/bootstrap.min.css
-					- script js src = http://yastatic.net/bootstrap/${v}/js/bootstrap.min.js
+					- link css href = //yastatic.net/bootstrap/${v}/css/bootstrap.min.css
+					- script js src = //yastatic.net/bootstrap/${v}/js/bootstrap.min.js
 
 		* dojo
 			- target {}
 				* google
-					- script js src = http://ajax.googleapis.com/ajax/libs/dojo/${v}/dojo/dojo.js
+					- script js src = //ajax.googleapis.com/ajax/libs/dojo/${v}/dojo/dojo.js
 
 				* yandex
-					- script js src = http://yastatic.net/dojo/${v}/dojo/dojo.js
+					- script js src = //yastatic.net/dojo/${v}/dojo/dojo.js
 
 		* extcore
 			- target {}
 				* google
-					- script js src = http://ajax.googleapis.com/ajax/libs/ext-core/${v}/ext-core.js
+					- script js src = //ajax.googleapis.com/ajax/libs/ext-core/${v}/ext-core.js
 
 				* yandex
-					- script js src = http://yastatic.net/ext-core/${v}/ext-core.min.js
+					- script js src = //yastatic.net/ext-core/${v}/ext-core.min.js
 
 		* fontawesome
 			- target {}
 				* maxcdn
-					- link css href = http://maxcdn.bootstrapcdn.com/font-awesome/${v}/css/font-awesome.min.css
+					- link css href = //maxcdn.bootstrapcdn.com/font-awesome/${v}/css/font-awesome.min.css
 
 		* jquery
 			- target {}
 				* google
-					- script js src = http://ajax.googleapis.com/ajax/libs/jquery/${v}/jquery.min.js
+					- script js src = //ajax.googleapis.com/ajax/libs/jquery/${v}/jquery.min.js
 
 				* yandex
-					- script js src = http://yastatic.net/jquery/${v}/jquery.min.js
+					- script js src = //yastatic.net/jquery/${v}/jquery.min.js
 
 		* jquerymobile
 			- target {}
 				* google
-					- link css href = http://ajax.googleapis.com/ajax/libs/jquerymobile/${v}/jquery.mobile.min.css
-					- script js src = http://ajax.googleapis.com/ajax/libs/jquerymobile/${v}/jquery.mobile.min.js
+					- link css href = //ajax.googleapis.com/ajax/libs/jquerymobile/${v}/jquery.mobile.min.css
+					- script js src = //ajax.googleapis.com/ajax/libs/jquerymobile/${v}/jquery.mobile.min.js
 
 				* yandex
-					- link css href = http://yastatic.net/jquery/mobile/${v}/jquery.mobile.min.css
-					- script js src = http://yastatic.net/jquery/mobile/${v}/jquery.mobile.min.js
+					- link css href = //yastatic.net/jquery/mobile/${v}/jquery.mobile.min.css
+					- script js src = //yastatic.net/jquery/mobile/${v}/jquery.mobile.min.js
 
 		* jqueryui
 			- target {}
 				* google
-					- link css href = http://ajax.googleapis.com/ajax/libs/jqueryui/${v}/themes/smoothness/jquery-ui.css
-					- script js src = http://ajax.googleapis.com/ajax/libs/jqueryui/${v}/jquery-ui.min.js
+					- link css href = //ajax.googleapis.com/ajax/libs/jqueryui/${v}/themes/smoothness/jquery-ui.css
+					- script js src = //ajax.googleapis.com/ajax/libs/jqueryui/${v}/jquery-ui.min.js
 
 				* yandex
-					- link css href = http://yastatic.net/jquery-ui/${v}/themes/smoothness/jquery-ui.min.css
-					- script js src = http://yastatic.net/jquery-ui/${v}/jquery-ui.min.js
+					- link css href = //yastatic.net/jquery-ui/${v}/themes/smoothness/jquery-ui.min.css
+					- script js src = //yastatic.net/jquery-ui/${v}/jquery-ui.min.js
 
 		* lodash
 			- target {}
 				* yandex
-					- script js src = http://yastatic.net/lodash/${v}/lodash.min.js
+					- script js src = //yastatic.net/lodash/${v}/lodash.min.js
 
 		* mootools
 			- target {}
 				* google
-					- script js src = http://ajax.googleapis.com/ajax/libs/mootools/${v}/mootools-yui-compressed.js
+					- script js src = //ajax.googleapis.com/ajax/libs/mootools/${v}/mootools-yui-compressed.js
 
 				* yandex
-					- script js src = http://yastatic.net/mootools/${v}/mootools.min.js
+					- script js src = //yastatic.net/mootools/${v}/mootools.min.js
 
 		* prototype
 			- target {}
 				* google
-					- script js src = http://ajax.googleapis.com/ajax/libs/prototype/${v}/prototype.js
+					- script js src = //ajax.googleapis.com/ajax/libs/prototype/${v}/prototype.js
 
 				* yandex
-					- script js src = http://yastatic.net/prototype/${v}/prototype.min.js
+					- script js src = //yastatic.net/prototype/${v}/prototype.min.js
 
 		* script.aculo.us
 			- target {}
 				* google
-					- script js src = http://ajax.googleapis.com/ajax/libs/scriptaculous/${v}/scriptaculous.js
+					- script js src = //ajax.googleapis.com/ajax/libs/scriptaculous/${v}/scriptaculous.js
 
 				* yandex
-					- script js src = http://yastatic.net/scriptaculous/${v}/min/scriptaculous.js
+					- script js src = //yastatic.net/scriptaculous/${v}/min/scriptaculous.js
 
 		* swfobject
 			- target {}
 				* google
-					- script js src = http://ajax.googleapis.com/ajax/libs/swfobject/${v}/swfobject.js
+					- script js src = //ajax.googleapis.com/ajax/libs/swfobject/${v}/swfobject.js
 
 				* yandex
-					- script js src = http://yastatic.net/swfobject/${v}/swfobject.min.js
+					- script js src = //yastatic.net/swfobject/${v}/swfobject.min.js
 
 		* three.js
 			- target {}
 				* google
-					- script js src = http://ajax.googleapis.com/ajax/libs/threejs/${v}/three.min.js
+					- script js src = //ajax.googleapis.com/ajax/libs/threejs/${v}/three.min.js
 
 		* underscore.js
 			- target {}
 				* yandex
-					- script js src = http://yastatic.net/underscore/${v}/underscore-min.js
+					- script js src = //yastatic.net/underscore/${v}/underscore-min.js
 
 		* webfontloader
 			- target {}
 				* google
-					- script js src = http://ajax.googleapis.com/ajax/libs/webfont/${v}/webfont.js
+					- script js src = //ajax.googleapis.com/ajax/libs/webfont/${v}/webfont.js
 
 	- block libraries
 
